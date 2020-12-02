@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 body {
     margin: 0;
@@ -59,13 +60,13 @@ body {
     margin: 0 auto;
     box-shadow: 5px 5px 5px  rgb(212, 212, 212);
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-h2 {
-    margin: 0;
+.bot-container div {
+    text-align: center;
+    font-weight: bold;
     color: rgb(26, 26, 148);
     letter-spacing: .5em;
     font-size: 1.5em;
